@@ -18,22 +18,22 @@ age = int(input('Введите ваш возраст: '))
 weight = float(input('Введите ваш вес: '))
 
 
-if weight in range(50, 120, 1) and age in range(10, 30, 1):
+if weight in range(50, 120) and age in range(10, 30):
 
     print(name, last_name, age, 'год,' ,'вес' ,weight ,' - хорошее состояние' )
 
 
-elif weight in range(25, 50, 1) and age >= 30:
+elif weight in range(25, 50) and age >= 30:
 
-    print(name, last_name, age, 'год,', 'вес', weight , ' - следует заняться собой')
+    print(name, last_name, age, 'год,', 'вес', weight ,' - следует заняться собой')
 
-elif weight in range(120, 140, 1) and age >= 30:
+elif weight in range(120, 140) and age >= 30:
 
-    print(name, last_name, age, 'год,', 'вес', weight, ' - следует заняться собой')
+    print(name, last_name, age, 'год,', 'вес', weight ,' - следует заняться собой')
 
 else:
 
-    print(name, last_name, age, 'год,', 'вес', age, ' - следует обратиться к врачу')
+    print(name, last_name, age, 'год,', 'вес', age ,' - следует обратиться к врачу')
 
 print ('Спасибо, что посетили нашу клинику, до новых встреч!')
 
