@@ -10,7 +10,7 @@ import re
 
 name = input('Введите ваше имя и фамилию: ')
 
-pattern_name = '^[A-ZA-ЯЁ]{1}[a-zа-яё]+\s[A-ZА-ЯЁ]{1}[a-zа-яё]+$'
+pattern_name = '^[A-ZA-ЯЁ][a-zа-яё]+\s[A-ZА-ЯЁ][a-zа-яё]+$'
 
 search_result_name = re.search(pattern_name, name)
 
