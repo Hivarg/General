@@ -6,7 +6,7 @@
 #  о том что машина поехала, остановилась, повернула(куда)
 
 class TownCar:
-    def _init_(self, name, speed, color, is_police):
+    def __init__(self, name, speed, color, is_police):
         self.speed = speed
         self.color = color
         self.name = name
@@ -23,7 +23,7 @@ class TownCar:
 
 
 class SportCar:
-    def _init_(self, speed, color, name, is_police):
+    def __init__(self, speed, color, name, is_police):
         self.speed = speed
         self.color = color
         self.name = name
@@ -40,7 +40,7 @@ class SportCar:
 
 
 class WorkCar:
-    def _init_(self, speed, color, name, is_police):
+    def __init__(self, speed, color, name, is_police):
         self.speed = speed
         self.color = color
         self.name = name
@@ -57,7 +57,7 @@ class WorkCar:
 
 
 class PoliceCar:
-    def _init_(self, speed, color, name, is_police):
+    def __init__(self, speed, color, name, is_police):
         self.speed = speed
         self.color = color
         self.name = name
@@ -88,7 +88,7 @@ go(towncar)
 # в родительский и остальные просто наследовать от него.
 
 class Car:
-    def _init_(self, name, speed, color, is_police):
+    def __init__(self, name, speed, color, is_police):
         self.name = name
         self.speed = speed
         self.color = color
