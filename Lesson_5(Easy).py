@@ -26,8 +26,8 @@ for i in path_dir:
 # Напишите скрипт, отображающий папки текущей директории.
 
 def list_dir(main_path):
-    for _ in os.listdir(main_path):
-        print(_)
+    for i in os.listdir(main_path):
+        print(i)
 
 
 main_path = os.getcwd()
