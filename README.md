@@ -1,1 +1,1 @@
-# Pyton
+# JavaScript
